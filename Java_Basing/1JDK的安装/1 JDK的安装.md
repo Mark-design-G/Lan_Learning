@@ -1,9 +1,10 @@
 # 提纲 
-- [1JDK简介](#JDK简介)  
-- [2JDK安装配置](#2JDK安装配置)  
-- [3测试](#测试)  
-- [4尝试手撕一次](#4尝试手撕一次)
-## 1 JDK简介
+- [1JDK简介](#head1)  
+- [2JDK安装配置](#head2)  
+- [3测试](#head3)  
+- [4尝试手撕一次](#head4)
+
+<span id=head1></span>
 
 > JDK缩写Java Development kit，翻译过来为java开发工具包。它为java程序开发提供了编译和运行环境，所有java程序依赖于它。通过jdk将java程序编写为字节码文件。
 
@@ -27,7 +28,7 @@ JDK一共三个版本：
 如果需要查看jdk官网详细介绍，可点击当前目录下的README.html
 
 
-## 2 JDK安装配置
+<span id=head2></span>
 
 > 安装配置之前，先需要你了解windows下的path是什么意思。
 
@@ -45,7 +46,7 @@ PATH是路径的意思，PATH环境变量中存放的值，就是一连串的路
 
 >  系统环境变量。对全部用户起作用,而用户环境变量仅仅对当前用户起作用。为了减少自己所做的修改对其它人的影响，故设置了系用户变量避免影响其它人。对于现在的配置而言，设置用户变量和系统变量的效果大致相同，只是系统变量的路径排在用户变量的路径之前。如果系统变量path里面包含java命令，用户变量Path里面也包含java命令,则他会优先执行系统变量path路径里面包含的java命令。
 
-## 3 测试
+<span id=head3></span>
 
 测试java
 
@@ -55,7 +56,7 @@ PATH是路径的意思，PATH环境变量中存放的值，就是一连串的路
 
 ![java版本](https://imgkr.cn-bj.ufileos.com/57b85d0f-a73f-4bd5-9ce1-095dd79e398a.png)
 
-## 4 尝试手撕一次
+<span id=head4></span>
 
 新建文件，命名为HelloWorld.java，编写代码如下
 
